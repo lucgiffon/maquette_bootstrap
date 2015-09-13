@@ -1,5 +1,6 @@
 body {
   padding-top: 50px;
+  background-color:#DDD;
 }
 .starter-template {
   padding: 40px 15px;
@@ -12,4 +13,9 @@ body {
   border-radius: 6px;
   line-height: 40px;
   text-align: center;
+}
+
+.formulaire {
+  background-color:#CCC;
+  padding: 20px;
 }
