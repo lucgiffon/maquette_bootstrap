@@ -19,3 +19,11 @@ body {
   background-color:#CCC;
   padding: 20px;
 }
+
+.initialcss {
+	background-color: initial;
+	border: initial;
+	border-radius: initial;
+	line-height: initial;
+	text-align: initial;
+}

@@ -195,7 +195,7 @@
 		<dt>Element 3</dt><dd>Description de l'élément 3</dd>
 	</dl>
 	<br/>
-	<h2>Les tables</h2>
+	<h2>Les tableaux</h2>
 	<section class="table-responsive">
 	<table class="table table-bordered table-striped table-condensed">
 	<caption><h3>Voici un tableau formaté par BootStrap:</h3></caption>
@@ -223,7 +223,7 @@
 	</div>
 
 	<div class="row">
-	<section class="col-xs-12" style="background-color: initial; border: initial; border-radius: initial; line-height: initial; text-align: initial;"> 
+	<section class="col-xs-12 initialcss" > 
 	<form class="formulaire">
 		<legend>Légende</legend>
 		<div class="form-group">
@@ -232,7 +232,7 @@
 		</div>
 		<div class="form-group">
 			<label for="textarea">Textarea : </label>
-			<textarea id="textarea" type="textarea" class="form-control"></textarea>
+			<textarea id="textarea" type="textarea" class="form-control" style="resize: vertical;"></textarea>
 			<p class="help-block">Vous pouvez agrandir la fenêtre</p>
 		</div>
 		<div class="form-group">
@@ -275,6 +275,40 @@
 	</section>
 	</div>
 
+	<div class="page-header">
+		<h1>BootStrap permet de créer de Jolis boutons et icones</h1>
+	</div>
+	<div class="row">	
+		<div class="col-md-6 initialcss"><button type="button" class="btn btn-primary btn-block">Bouton standard</button></div>
+		<div class="col-md-6 initialcss"><button type="button" class="btn btn-success btn-block">Réussite</button></div>
+	</div>
+	<div class="row">	
+		<div class="col-md-2 initialcss"><button type="button" class="btn btn-info btn-block">Information</button></div>
+		<div class="col-md-6 initialcss"><button type="button" class="btn btn-warning btn-block">Avertissement</button></div>
+		<div class="col-md-3 initialcss"><button type="button" class="btn btn-danger btn-block">Danger</button></div>
+		<div class="col-md-1 initialcss"><button type="button" class="btn btn-link btn-block">Lien</button></div>
+	</div>
+	<br />
+	<div class="row" >
+		<div class="col-xs-offset-3 col-xs-6 initialcss">
+			<div class="btn-group">
+				<a class="btn btn-danger" href="#"><span class="glyphicon glyphicon-fast-backward"></span>&nbsp;</a>
+				<a class="btn btn-info" href="#"><span class="glyphicon glyphicon-backward"></span>&nbsp;</a>
+				<a class="btn btn-warning" href="#"><span class="glyphicon glyphicon-play"></span>&nbsp;</a>
+				<a class="btn btn-info" href="#"><span class="glyphicon glyphicon-forward"></span>&nbsp;</a>
+				<a class="btn btn-danger" href="#"><span class="glyphicon glyphicon-fast-forward"></span>&nbsp;</a>
+			</div>
+		</div>
+		<div class="col-cs-offset-2 col-xs-1 initialcss">
+			<div class="btn-group-vertical">
+				<a class="btn btn-danger" href="#"><span class="glyphicon glyphicon-pencil"></span>&nbsp;</a>
+				<a class="btn btn-info" href="#"><span class="glyphicon glyphicon-search"></span>&nbsp;</a>
+				<a class="btn btn-warning" href="#"><span class="glyphicon glyphicon-print"></span>&nbsp;</a>
+				<a class="btn btn-success" href="#"><span class="glyphicon glyphicon-picture"></span>&nbsp;</a>
+			</div>
+		</div>
+	</div>
+	
 	</div> <!-- container -->
 
 
