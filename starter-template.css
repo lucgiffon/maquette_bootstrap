@@ -3,11 +3,10 @@ body {
   background-color:#DDD;
 }
 .starter-template {
-  padding: 40px 15px;
   text-align: center;
 }
 
-[class*="col-"], footer {
+.coloredcol{
   background-color: lightblue;
   border: 2px solid black;
   border-radius: 6px;
@@ -26,4 +25,8 @@ body {
 	border-radius: initial;
 	line-height: initial;
 	text-align: initial;
+}
+
+strong {
+	color: red;
 }
